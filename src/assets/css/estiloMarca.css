@@ -1,0 +1,53 @@
+/* NAVEGADOR */
+.navegadorPrincipal {
+    background-color: orange;
+    border: none;
+}
+
+/* color de fuente del menu */
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+/* logo menu */
+.imgTornillo {
+    height: 70px;
+}
+
+/* espacios entre los links del menu */
+@media (min-width: 769px) {
+    .navbar-nav > li > a {
+        padding-top: 24px;
+        margin-left: 30px;
+    }
+}
+
+/* links menu */
+.menuItems a {
+    color: white;
+}
+
+/* links menu hover */
+.menuItems a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+/* Login */
+.login button {
+    margin-top: 20px;
+}
+
+.login .entrar {
+    float: left;
+    margin-left: 20px;
+}
+
+.login .registrarse {
+    float: right;
+    margin-right: 20px;
+}
+
+.registro label, .registro button {
+    margin-top: 20px;
+}
